@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url();
+body {
+    font-family: montserrat;
+    font-style: bold italic;
+}
+
+body {
+  color: rgb(0, 0, 0);
+  width: 100dvw;
+  overflow-x: hidden;
+  height: 90%;
+  background: #000;
+  border-color: #3b3b3b;
+  user-select: none;
+}
+
+canvas {
+  touch-action: none;
+}
+
+.screen-max-width {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  position: relative;
+  max-width: 1120px;
+}
+
+ .hero-title {
+    @apply text-center font-semibold text-3xl text-powderblue max-md:mb-10
+  }
