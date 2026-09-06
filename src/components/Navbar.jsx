@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="relative flex items-center  ">
               
                 <input 
-                 
+                  id='search-bar'
                   type="search"
                   placeholder="Search"
                   aria-label="Search"

@@ -32,9 +32,19 @@ canvas {
   margin-inline-start: auto;
   margin-inline-end: auto;
   position: relative;
-  max-width: 1120px;
+  max-width: 1520px;
 }
 
- .hero-title {
-    @apply text-center font-semibold text-3xl text-powderblue max-md:mb-10
+@media (max-width: 768px) {
+  .screen-max-width {
+    padding-left: 15px;
+    padding-right: 15px;
   }
+}
+
+@media (max-width: 480px) {
+  .screen-max-width {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

@@ -1,10 +1,14 @@
-import React from 'react'
-import Videohighlights from './Videohighlights';
+import React from 'react';
+import Videohighlights from './videohighlights';
+import Vhighlight2 from './vhighlight2'; // Capitalized here
 
-const highlights = () => {
+const Highlights = () => {  
   return (
-    <Videohighlights/>
-  )
+    <div>
+      <Videohighlights />
+      <Vhighlight2 /> 
+    </div>
+  );
 }
 
-export default highlights
+export default Highlights; // Capitalized here too
